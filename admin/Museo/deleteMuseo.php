@@ -41,7 +41,7 @@ if (isset($_SESSION['MiSession'])){
  echo "</nav>";
 
 $id=$_GET['id'];
-$no=$_GET['nombre'];
+//$nombre=$_GET['nombre'];
 
 include_once("MuseoCollector.php");
 $museoCollectorObj= new MuseoCollector();
@@ -51,7 +51,7 @@ echo "<br>";
 echo "<div class='container'>";
 echo "<div class='panel panel-default'>";
 echo "<div class='panel-heading'>Museo Eliminado Correctamente</div>";
-echo "<div class='panel-body'>$no</div>";
+//echo "<div class='panel-body'>$nombre</div>";
 echo "</div>";
 echo "</div>";
 ?>
