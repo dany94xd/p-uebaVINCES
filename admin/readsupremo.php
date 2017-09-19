@@ -55,6 +55,8 @@ if (isset($_SESSION['MiSession'])){
     echo "<div id='columna'><img src=\"../images/ciudad.png\"><a href='Ciudad/readCiudad.php'>Ciudad</a></div>";
     echo "<div id='columna'><img src=\"../images/parroquia.png\"><a href='Parroquia/readParroquia.php'>Parroquia</a></div>";
     echo "<div id='columna'><img src=\"../images/estadoDenu.png\"><a href='EstadoDenuncia/readEstadoDenuncia.php'>Estado de denuncia</a></div>";
+
+     echo "<div id='columna'><img src=\"../images/estadoDenu.png\"><a href='Museo/readMuseo.php'>Museo</a></div>";
     echo "</div>";
 
     echo "</div>";
